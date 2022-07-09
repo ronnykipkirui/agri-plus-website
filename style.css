@@ -12,10 +12,12 @@
     }
     
     .topnav_item {
+        display: flex;
         color: aliceblue;
         background: transparent;
         margin: 15px;
         font-family: 'Courier New', Courier, monospace;
+
     
     }
     .topnav_login{
