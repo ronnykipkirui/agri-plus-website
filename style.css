@@ -37,7 +37,7 @@
 
 }
 
-
+/*end of top nav*/
 
 
 .outer_wrapper {
@@ -56,8 +56,30 @@
     padding: 2px;
 }
 
-.left_topNav {
-    flex: 1;
-    display: flex;
-    min-width: -webkit-min-content;
+.data {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1;
+	background-color: transparent;
+	float: left;
+	width: 100%;
+	padding: 10px 6px;
+	height: auto;
+	margin: 10px 0;
+}
+
+.data .each_data {
+	width: auto;
+	background-color: ghostwhite;
+	margin: 0.5%;
+	min-width: 15%;
+	border-radius: 4px;
+	padding: 4px;
+	flex-wrap: nowrap;
+	
+}
+
+.data .each_data p {
+	font-size: 80%;
+	margin: 2px auto;
 }
