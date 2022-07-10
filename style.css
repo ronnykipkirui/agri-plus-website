@@ -1,8 +1,6 @@
 .div_body {
     padding-right: 10%;
     padding-left: 10%;
-
-
 }
 
 .topnav_wrapper {
@@ -37,17 +35,33 @@
 
 }
 
-/*end of top nav*/
+button {
+    background-color: rgb(232, 153, 64);
+    border-color: rgb(229, 125, 51);
+    border-radius: 2px;
 
-
-.outer_wrapper {
-    display: flex;
-    background-image: url ('aserts/images/image 1.png');
 
 }
 
-.outer_wrapper a {
-    color: white;
+/*end of top nav*/
+
+
+.body1 {
+    display: flex;
+    background-image: url("aserts/images/Rectangle\ 5.png");
+    height: 600px;
+
+}
+
+
+.body2 {
+    display: flex;
+    height: 600px
+}
+
+hr {
+    background-color: brown;
+    width: auto;
 }
 
 
@@ -56,30 +70,58 @@
     padding: 2px;
 }
 
-.data {
-	display: flex;
-	flex-wrap: wrap;
-	flex: 1;
-	background-color: transparent;
-	float: left;
-	width: 100%;
-	padding: 10px 6px;
-	height: auto;
-	margin: 10px 0;
+.data1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: transparent;
+    float: left;
+    width: 100%;
+    padding: 10px 6px;
+    height: auto;
+    margin: 10px 0;
 }
 
-.data .each_data {
-	width: auto;
-	background-color: ghostwhite;
-	margin: 0.5%;
-	min-width: 15%;
-	border-radius: 4px;
-	padding: 4px;
-	flex-wrap: nowrap;
-	
+.data1 .each_data {
+    width: auto;
+    background-color: ghostwhite;
+    margin: 0.5%;
+    min-width: 23%;
+    border-radius: 4px;
+    padding: 4px;
+
+
 }
 
-.data .each_data p {
-	font-size: 80%;
-	margin: 2px auto;
+.data1 .each_data p {
+    font-size: 80%;
+    margin: 2px auto;
+}
+
+.data2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: transparent;
+    float: left;
+    width: 100%;
+    padding: 10px 6px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.data2 .each_data {
+    width: auto;
+    background-color: ghostwhite;
+    margin: 0.5%;
+    min-width: 23%;
+    border-radius: 4px;
+    padding: 4px;
+
+
+}
+
+.data2 .each_data p {
+    font-size: 80%;
+    margin: 2px auto;
 }
