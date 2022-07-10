@@ -126,7 +126,7 @@ hr {
     font-size: 80%;
     margin: 2px auto;
 }
-.data3{
+.feedback{
     display: flex;
     flex-wrap: wrap;
     flex: 1;
@@ -138,7 +138,7 @@ hr {
     margin: 10px 0;
 
 }
-.data3.each_data {
+.feedback.each_data {
     width: auto;
     background-color: ghostwhite;
     margin: 0.5%;
@@ -151,7 +151,30 @@ hr {
 
 }
 
-.data3 .each_data p {
+.feedback.each_data p {
     font-size: 80%;
     margin: 2px auto;
+}
+.subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: transparent;
+    float: left;
+    width: 100%;
+    padding: 10px 6px;
+  
+    margin: 10px 0;
+}
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: black;
+    float: left;
+    width: 100%;
+    padding: 10px 6px;
+    color: aliceblue;
+    margin: 10px 0;
 }
