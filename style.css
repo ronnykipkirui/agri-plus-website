@@ -1,11 +1,13 @@
-.div_body {
+.body {
     padding-right: 10%;
     padding-left: 10%;
+    font-family:  Poppins, Inter;
 }
 
 .topnav_wrapper {
     display: flex;
-    background-color: black;
+    background-color: #060606;
+    height: 70px;
 }
 
 .topnav_item {
@@ -36,9 +38,9 @@
 }
 
 button {
-    background-color: rgb(232, 153, 64);
-    border-color: rgb(229, 125, 51);
-    border-radius: 2px;
+    background-color: #ED661F;
+    border-color: #ED661F;
+    color: aliceblue;
 
 
 }
@@ -190,6 +192,7 @@ color: rgb(245, 159, 10);
     margin: 0.5%;
     min-width: 23%;
     border-radius: 4px;
+
     padding: 4px;
     color: aliceblue;
 
@@ -197,4 +200,9 @@ color: rgb(245, 159, 10);
 }
 h5{
     text-align: center;
+    float: center;
+}
+.last1{
+    display:flex ;
+    float: center;
 }
