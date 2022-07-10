@@ -1,7 +1,7 @@
 .body {
     padding-right: 10%;
     padding-left: 10%;
-    font-family:  Poppins, Inter;
+    font-family: Poppins, Inter;
 }
 
 .topnav_wrapper {
@@ -50,7 +50,7 @@ button {
 
 .body1 {
     display: flex;
-    background-image: url("aserts/images/Rectangle\ 5.png");
+    background-image: url("aserts/images/image\ 1.png");
     height: 600px;
 
 }
@@ -127,6 +127,33 @@ hr {
     font-size: 80%;
     margin: 2px auto;
 }
+.data3 {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: transparent;
+    float: right;
+    width: 100%;
+    padding: 10px 6px;
+    height: auto;
+    margin: 10px 0;
+}
+
+.data3 .each_data {
+    width: auto;
+    background-color: ghostwhite;
+    margin: 0.5%;
+    min-width: 23%;
+    border-radius: 4px;
+    padding: 4px;
+
+
+}
+
+.data3 .each_data p {
+    font-size: 80%;
+    margin: 2px auto;
+}
 
 .feedback {
     display: flex;
@@ -145,7 +172,7 @@ hr {
     width: auto;
     background-color: ghostwhite;
     margin: 0.5%;
-    min-width: 23%;
+    min-width: 33.3%;
     border-radius: 4px;
     padding: 4px;
 
@@ -157,22 +184,10 @@ hr {
     margin: 2px auto;
 }
 
-.feedback.each_data i{
-color: rgb(245, 159, 10);
+.feedback.each_data i {
+    background-color: #ED661F;
 }
 
-
-.subscribe {
-    display: flex;
-    flex-wrap: wrap;
-    flex: 1;
-    background-color: transparent;
-    float: left;
-    width: 100%;
-    padding: 10px 6px;
-
-    margin: 10px 0;
-}
 
 .footer {
 
@@ -198,11 +213,13 @@ color: rgb(245, 159, 10);
 
 
 }
-h5{
+
+h5 {
     text-align: center;
     float: center;
 }
-.last1{
-    display:flex ;
+
+.last1 {
+    display: flex;
     float: center;
 }
