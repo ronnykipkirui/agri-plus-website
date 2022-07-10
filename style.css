@@ -155,6 +155,11 @@ hr {
     margin: 2px auto;
 }
 
+.feedback.each_data i{
+ color: rgb(245, 159, 10);
+}
+
+
 .subscribe {
     display: flex;
     flex-wrap: wrap;
