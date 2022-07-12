@@ -1,7 +1,7 @@
 .body {
     padding-right: 10%;
     padding-left: 10%;
-    font-family: Poppins, Inter;
+    
 }
 
 .topnav_wrapper {
@@ -50,15 +50,24 @@ button {
 
 .body1 {
     display: flex;
-    background-image: url("/home/moringa/Documents/ronny/agri-plus/aserts/images/image 1.png");
-    height: 400px;
-
+    height: 500px;
+    justify-content: space-between;
+    background-image: url("aserts/images/image\ 1.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
-
+.body1 .left {
+    padding-left: 35px;
+}
+.body1 .right{
+    padding-right: 35px;
+}
 
 .body2 {
     display: flex;
-    height: 400px
+    height: 400px;
+    justify-content: space-between;
+    
 }
 
 hr {
@@ -110,6 +119,7 @@ hr {
     padding: 10px 6px;
     height: auto;
     margin: 10px 0;
+    justify-content: space-between;
 }
 
 .data2 .each_data {
