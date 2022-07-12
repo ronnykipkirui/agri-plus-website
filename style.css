@@ -1,80 +1,108 @@
-.body {
-    padding-right: 10%;
-    padding-left: 10%;
-    
-}
 
-.topnav_wrapper {
+
+
+
+.topnav {
     display: flex;
-    background-color: #060606;
-    height: 70px;
+    justify-content: space-between;
+    background-color: black;
+    height: fit-content;
+    justify-content: space-around;
 }
-
-.topnav_item {
-    display: flex;
-    color: aliceblue;
-    margin: 15px;
-    font-family: 'Courier New', Courier, monospace;
-
-}
-
-.topnav_left,
-.topnav_right {
-    flex: 1;
-    display: flex;
-    min-width: -webkit-min-content;
+#header{
+    color: white;
 
 
 }
 
-.topnav_right {
-    justify-content: flex-end;
-
+.list{
+margin-left: 10px;
+padding: 3%;
+justify-content: space-between;
+}
+.list u{
+    text-decoration-color: #ED661F;
+    text-decoration-thickness: 3px;
 }
 
-.topnav_wrapper {
-    display: flex;
+.login{
 
+    padding: 3%;
 }
 
-button {
+.button{
+    padding: 10px;
+    height: fit-content;
     background-color: #ED661F;
-    border-color: #ED661F;
-    color: aliceblue;
-
+    color: antiquewhite;
+    border: none;
+    margin-top: 3%;
 
 }
+a{
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+.underline{
+    border-bottom: #ED661F;
+}
+
+
+
+
+
+
+
+
+/*
+a {
+    margin: 5px;
+    color: white;
+    text-decoration: none;
+}
+#header {
+    color: rgb(253, 250, 250);
+    
+
+.list,
+.login {
+    padding: 3%;
+}
+
+.underline {
+    border-bottom: #ED661F;
+}
+
+
 
 /*end of top nav*/
 
 
 .body1 {
     display: flex;
-    height: 500px;
+    height: 450px;
     justify-content: space-between;
     background-image: url("aserts/images/image\ 1.png");
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
 .body1 .left {
     padding-left: 35px;
 }
-.body1 .right{
+
+.body1 .right {
     padding-right: 35px;
+    width: 50%;
 }
 
 .body2 {
     display: flex;
     height: 400px;
     justify-content: space-between;
-    
-}
 
-hr {
-    background-color: brown;
-    width: auto;
 }
-
 
 .item {
     margin: 2px;
@@ -137,6 +165,7 @@ hr {
     font-size: 80%;
     margin: 2px auto;
 }
+
 .data3 {
     display: flex;
     flex-wrap: wrap;
@@ -198,6 +227,10 @@ hr {
     background-color: #ED661F;
 }
 
+.subscribe {
+    height: 300px;
+}
+
 
 .footer {
 
@@ -232,4 +265,12 @@ h5 {
 .last1 {
     display: flex;
     float: center;
+}
+
+.checked {
+    color: orange;
+}
+
+.unchecked {
+    color: gray;
 }
