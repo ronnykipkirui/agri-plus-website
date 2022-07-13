@@ -1,4 +1,4 @@
-.body{
+.body {
     padding-left: 10%;
     padding-right: 10%;
 }
@@ -12,28 +12,30 @@
     height: fit-content;
     justify-content: space-around;
 }
-#header{
+
+#header {
     color: white;
 
 
 }
 
-.list{
-margin-left: 10px;
-padding: 3%;
-justify-content: space-between;
+.list {
+    margin-left: 10px;
+    padding: 3%;
+    justify-content: space-between;
 }
-.list u{
+
+.list u {
     text-decoration-color: #ED661F;
     text-decoration-thickness: 3px;
 }
 
-.login{
+.login {
 
     padding: 3%;
 }
 
-.button{
+.button {
     padding: 10px;
     height: fit-content;
     background-color: #ED661F;
@@ -42,25 +44,28 @@ justify-content: space-between;
     margin-top: 3%;
 
 }
-a{
+
+a {
     margin: 5px;
     color: white;
     text-decoration: none;
 }
-.stat{
+
+.stat {
     display: flex;
     width: 500px;
     justify-content: space-between;
-    margin-top: 28%;
+    margin-top: 30%;
     padding-left: 20px;
     padding-right: 20px;
     margin-bottom: 1%;
-    box-shadow:  3px 2px 2px 2px lightslategray;
-    background-color:ghostwhite;
+    box-shadow: 3px 2px 2px 2px lightslategray;
+    background-color: ghostwhite;
     text-align: center;
 
 }
-.p3{
+
+.p3 {
     display: flex;
     float: right;
 }
@@ -78,9 +83,11 @@ a{
 .body1 .left {
     padding-left: 35px;
 }
-u{
+
+u {
     text-decoration-color: #ED661F;
     text-decoration-thickness: 5px;
+    text-underline-offset: 2px;
 }
 
 .body1 .right {
@@ -127,7 +134,8 @@ u{
     font-size: 80%;
     margin: 2px auto;
 }
-.left button{
+
+.left button {
     padding: 10px;
     height: fit-content;
     background-color: #ED661F;
@@ -165,6 +173,9 @@ u{
     font-size: 80%;
     margin: 2px auto;
 }
+h4{
+    margin-top: 30%;
+}
 
 .data3 {
     display: flex;
@@ -193,7 +204,9 @@ u{
     font-size: 80%;
     margin: 2px auto;
 }
-
+h4{
+    float: right;
+}
 .feedback {
     display: flex;
     flex-wrap: wrap;
@@ -232,13 +245,7 @@ u{
     color: white;
     background-color: black;
 }
-.subscribe p{
-    width: auto;
-    background-color: ghostwhite;
-    margin: 0.5%;
-    min-width: 33.3%;
-    padding: 4px;
-}
+
 
 .footer {
 
@@ -284,9 +291,14 @@ h5 {
 
 
 }
-hr{
-    color: aliceblue;
-    text-decoration-thickness:3px ;
+
+hr {
+    position: relative;
+    top: 20px;
+    border: none;
+    height: 12px;
+    background: transparent;
+    margin-bottom: 50px;
 }
 
 
@@ -302,9 +314,3 @@ a{
 }
 }
 */
-
-
-
-
-
-    
